@@ -1,0 +1,316 @@
+   * {
+       margin: 0px;
+       padding: 0px;
+   }
+   
+   main,
+   nav,
+   article,
+   aside,
+   section,
+   header,
+   footer {
+       display: block;
+   }
+   
+   header {
+       width: 100%;
+       height: 117px;
+   }
+   
+   body {
+       color: #000000;
+   }
+   
+   main {
+       width: 100%;
+   }
+   
+   footer {
+       width: 100%;
+       height: 90px;
+       background-color: #000000;
+       color: #62c462;
+       font-family: Helvetica;
+       clear: both;
+   }
+   
+   .clear {
+       clear: both;
+   }
+   
+   #wrapper {
+       width: 100%;
+       max-width: 1200px;
+       margin: 0 auto;
+   }
+   
+   .table td,
+   .table th {
+       padding: 16px;
+   }
+   /* ------Message for DB query------ */
+   
+   .confirmMessage {
+       padding: 16px;
+       font-size: 26px;
+       font-family: 'Rokkitt', serif;
+   }
+   /* ------Bredcrumb------ */
+   
+   ul.breadcrumb {
+       padding: 10px 16px;
+       list-style: none;
+       background: #ffffff;
+   }
+   
+   ul.breadcrumb li {
+       font-size: 18px;
+   }
+   /* ------Login layout------ */
+   
+   #loginPage .wrapperLogin {
+       width: 50%;
+       /* according to design's width*/
+       margin: 0px auto;
+   }
+   /* Add a slash symbol (>>) before/behind each list item */
+   
+   ul.breadcrumb li+li:before {
+       padding: 8px;
+       content: ">>\00a0";
+   }
+   
+   .currentPage {
+       padding-top: 6px;
+   }
+   
+   ul.breadcrumb li a {
+       text-decoration: none;
+   }
+   
+   ul.breadcrumb li a:hover {
+       color: #01447e;
+       text-decoration: underline;
+   }
+   /* ------Login section------ */
+   
+   .logo1 {
+       float: left;
+       height: 70px;
+       width: 57.39px;
+       background: url(../images/logoOurCompany.PNG)no-repeat;
+       background-size: contain;
+   }
+   
+   .logo2 {
+       float: right;
+       height: 70px;
+       width: 200px;
+       background: url(../images/logoBarSheva.png)no-repeat;
+       background-size: contain;
+   }
+   
+   .loginLine {
+       width: 100%;
+       height: 38px;
+       background-color: #7a7a7a;
+       padding-top: 5px;
+   }
+   
+   .loginLine a {
+       font-size: 18px;
+       margin: 16px;
+       color: #000000;
+   }
+   /* ------Nav------ */
+   
+   li a {
+       font-size: 24px;
+       color: #000000;
+   }
+   
+   #informationUserLayout .card {
+       margin: 0 auto;
+       width: 100%;
+   }
+   /* ------Home layout------ */
+   
+   #homeLayout .actionCircle {
+       float: left;
+       margin: 50px;
+       background-color: black;
+       border-radius: 10ch;
+       width: 123px;
+       height: 123px;
+       color: #ffffff;
+       padding-top: 20px;
+   }
+   
+   #homeLayout .actionEnter .actionCircle {
+       background-color: #92d36e;
+       border-radius: 10ch;
+       display: none;
+   }
+   
+   #homeLayout main {
+       min-height: 430px;
+       background: url(../images/home_background.jpeg)no-repeat;
+       background-size: contain;
+       clear: both;
+   }
+   
+   #homeLayout .gil_main {
+       min-height: 430px;
+       background: url(../images/user_back.jpg)no-repeat;
+       background-size: contain;
+       clear: both;
+   }
+   
+   #homeLayout .menuArea {
+       width: 55.75%;
+       min-height: 200px;
+       margin: 0 auto;
+       text-align: center;
+       font-size: 24px;
+       padding-top: 100px;
+   }
+   /* ------Facilitys layout------ */
+   
+   #facilityLayout aside {
+       width: 12.666666666666666%;
+       min-height: 700px;
+   }
+   
+   #facilityLayout aside img {
+       margin: 16px;
+   }
+   
+   #facilityLayout aside h3 {
+       font-family: 'Baloo Bhai', cursive;
+       font-size: 16px;
+       margin: 16px;
+   }
+   
+   #facilityLayout aside h3:hover {
+       text-decoration-line: underline;
+       text-decoration-color: #000000;
+   }
+   
+   #facilityLayout main {
+       min-height: 700px;
+       width: 87.33333333333333%;
+       float: right;
+   }
+   
+   #facilityLayout .facilitieLink {
+       float: left;
+       margin: 50px;
+       background-color: #ffffff;
+       border-radius: 10ch;
+       width: 114px;
+       height: 110px;
+       border: 1px solid black;
+       font-family: Arial, Helvetica, sans-serif;
+       text-align: center;
+       text-decoration: none;
+       color: #000000;
+   }
+   
+   #facilityLayout .facilitieLink img {
+       width: 100px;
+       height: 100px;
+       margin: 7px;
+       border-radius: 10ch;
+   }
+   /* ------Delete button------ */
+   
+   #myTrainingsLayout .closeBtn,
+   #facilityDetailsLayout .closeBtn {
+       background-color: #ffffff;
+       border: 0px;
+   }
+   /* ------Card for faciliy/training details------ */
+   
+   #detailsSaveLayout .card-img,
+   #facilityDetailsLayout .card-img {
+       width: 150px;
+       height: 150px;
+   }
+   
+   #detailsSaveLayout .card,
+   #facilityDetailsLayout .card {
+       border: 0px;
+   }
+   /* ------Form layout------ */
+   
+   #formLayout form {
+       padding: 10px 16px;
+   }
+   /* ------Barcode layout------ */
+   
+   #barcodeLayout main {
+       margin: 0 auto;
+       background: url(../images/barcode_img.jpg)no-repeat;
+       background-size: contain;
+       width: 100px;
+       height: 100px;
+       min-height: 430px;
+   }
+   /* ------Trainings for late comming layout------ */
+   
+   #trainingsForLateLayout main a {
+       width: 50%;
+       padding: 10px 16px;
+   }
+   
+   #trainingsForLateLayout #getDate,
+   #trainingsForLateLayout #getTime,
+   #trainingsForLateLayout #getLevel {
+       display: none;
+   }
+   /*-------Media Query-------*/
+   
+   @media only screen and (max-width: 481px) {
+       .loginLine a {
+           font-size: 16px
+       }
+       aside {
+           display: none;
+       }
+       #facilityLayout main {
+           width: 100%;
+       }
+       li a {
+           font-size: 16px;
+       }
+       .logo1 {
+           height: 40px;
+       }
+       .logo2 {
+           height: 40px;
+           width: 100px;
+       }
+       ul.breadcrumb li {
+           font-size: 10px;
+       }
+       #homeLayout .menuArea {
+           padding-top: 0px;
+       }
+       #homeLayout .actionEnter .actionCircle {
+           display: block;
+       }
+       #facilityLayout .facilitieLink {
+           margin: 25px;
+       }
+       .facilityImg {
+           display: none;
+       }
+   }
+   
+   @media only screen and (max-width: 1199px) {
+       #homeLayout main,
+       #homeLayout .gil_main {
+           background: #ffffff;
+       }
+   }
