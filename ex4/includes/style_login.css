@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+main,
+nav,
+article,
+aside,
+section,
+header,
+footer {
+    display: block;
+}
+
+#wrapper {
+    width: 500px;
+    /* according to design's width*/
+    margin: 0px auto;
+}
+
+form {
+    margin: 30px;
+    height: 500px;
+}

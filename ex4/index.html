@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tomer Bar</title>
+    <link rel="stylesheet" href="includes/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body id="layout3">
+
+    <header id="header">
+
+        <div id="button"></div>
+    </header>
+    <div id="wrapper">
+        <section id="leftNav">
+            <p>You think layout3 is over? not yet</p>
+            <p>We know you're traumatized by the layout</p>
+            <p>Click the button, and find two pairs in the memory game to register to our support circle</p>
+        </section>
+
+        <main id="main">
+
+
+            <div id="form-wrapper">
+                <form action=" http://html5-book.co.il/teach/forms/get_form2.php" method="GET">
+
+                    <div class="form-group">
+                        <label for="userName">Enter full name , To enter to our support circle</label>
+                        <input type="text" name="fullName" class="form-control" value="">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Enter password</label>
+                        <input type="password" name="pass" class="form-control" maxlength="8" value="">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Enter email , To support messages</label>
+                        <input type="email" name="mail" class="form-control" value="">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="website">Enter your layout3 url , Do not forget minimum requirements </label>
+                        <input type="url" name="website" class="form-control" value="">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="tel">Enter phone </label>
+                        <input type="tel" name="phone" class="form-control" value="">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="level">Enter difficulty level</label>
+                        <input type="number" name="coffee" class="form-control" value="">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="level">Rate the amount of hours you've spent</label>
+                        <input type="range" name="temper" class="form-control" value="">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="address">Enter address</label>
+                        <textarea class="form-control" name="address" rows="1"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="gender">Specify your traumas from the layout</label>
+
+                        <div class="form-check">
+
+                            <input class="form-check-input" type="checkbox" name="interests[]" value="Depression" checked>
+                            <label class="form-check-label" for="exampleRadios1">
+                        Depression
+                        </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="interests[]" value="Despair">
+                            <label class="form-check-label" for="exampleRadios2">
+                        Despair
+                        </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="interests[]" value="Stress">
+                            <label class="form-check-label" for="exampleRadios2">
+                                Stress
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="interests[]" value="Happiness" disabled>
+                            <label class="form-check-label" for="exampleRadios3">
+                            Happiness
+                        </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="gender">Your gender </label>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gender" value="Male">
+                            <label class="form-check-label" for="exampleRadios2">
+                        Male
+                    </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gender" value="Female">
+                            <label class="form-check-label" for="exampleRadios2">
+                            Female
+                        </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="level">How many years do you think the layout make you older?</label>
+                        <select name="age" class="form-control">
+                                <option value ="10">10</option>
+                                <option value ="20" >20</option>
+                                <option value ="30">30</option>
+                                <option value ="40">40</option></select>
+
+                    </div>
+                    <input type="submit" class="sumbitBtn">
+
+
+
+
+
+                </form>
+            </div>
+        </main>
+
+
+        <aside id="rightSquare"></aside>
+        <div class="clear"></div>
+        <div id="downSquare"></div>
+        <footer></footer>
+    </div>
+    <script src="includes/main.js"></script>
+</body>
+
+</html>

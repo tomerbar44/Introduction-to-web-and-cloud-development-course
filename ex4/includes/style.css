@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+main,
+nav,
+article,
+aside,
+section,
+header,
+footer {
+    display: block;
+}
+
+#header {
+    width: 100%;
+    height: 123px;
+    background: #000000;
+}
+
+footer {
+    width: 100%;
+    height: 41px;
+    background-color: #000000;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/*-------Layout3-------*/
+
+#layout3 #wrapper {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#layout3 #form-wrapper {
+    width: 700px;
+    margin: 0 auto;
+}
+
+#layout3 #leftNav {
+    float: left;
+    width: 25.833333333333332%;
+    min-height: 995px;
+    background: #000000;
+}
+
+#layout3 #main {
+    float: left;
+    width: 66.94444444444444%;
+    background: #000000;
+}
+
+#layout3 #rightSquare {
+    float: right;
+    width: 7.222222222222222%;
+    min-height: 995px;
+    background: #000000;
+}
+
+#layout3 #downSquare {
+    width: 100%;
+    height: 463px;
+    background: #000000;
+}
+
+#button {
+    float: right;
+    width: 80px;
+    height: 80px;
+    margin: 21px 24px;
+    background: red;
+}
+
+#layout3 footer {
+    top: 1581px;
+}
+
+.floatBox {
+    font-family: Helvetica;
+}
+
+form {
+    display: none;
+}
+
+p {
+    position: relative;
+    font-size: 2em;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 8s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+.sumbitBtn {
+    background: url(../images/38_patient_with_bandage-512.png)no-repeat;
+    background-size: contain;
+    height: 100px;
+    width: 100px;
+}
+
+@keyframes animate {
+    0% {
+        background-position: -500%;
+    }
+    100% {
+        background-position: 500%;
+    }
+}
